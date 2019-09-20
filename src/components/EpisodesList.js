@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import EpisodesCard from './EpisodesCard'
 
-export default function LocationsList() {
+export default function EpisodesList() {
     const[episode, setEpisode] = useState([])
 
   useEffect(() => {
