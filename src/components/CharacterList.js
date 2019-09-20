@@ -32,6 +32,7 @@ export default function CharacterList() {
         species= {e.species}
         status= {e.status}
         type= {e.type}
+        url= {e.image}
         />
       ))}</h2>
     </section>

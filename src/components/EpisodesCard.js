@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Card, CardText, CardBody,
+  Card, CardBody,
  CardSubtitle
 } from 'reactstrap';
 
@@ -11,9 +11,7 @@ export default function LocationCard(props) {
         <Card>
           <CardBody>
             <CardSubtitle>{props.name}</CardSubtitle>
-            <CardSubtitle>{props.type}</CardSubtitle>
-            <CardSubtitle>{props.dimension}</CardSubtitle>
-            <CardText>{props.residents}</CardText>
+            <CardSubtitle>{props.airdate}</CardSubtitle>
           </CardBody>
         </Card>
       </div>

@@ -2,11 +2,12 @@ import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import LocationCard from './LocationCard'
 
+
 export default function LocationsList() {
     const[loc, setLoc] = useState([])
 
     useEffect(() => {
-        const getChar = () => {
+        const getLoc = () => {
             Axios 
               .get('https://rickandmortyapi.com/api/location/')
               .then(response => {
@@ -18,7 +19,7 @@ export default function LocationsList() {
                 console.error('Server Error', error);
               });
           }
-          getChar();
+          getLoc();
         }, []);
       
         return (
