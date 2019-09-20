@@ -4,6 +4,7 @@ import {withFormik, Form, Field} from 'formik'
 import * as Yup from "yup"; 
 
 
+
 function SearchForm ({props,values, errors, touched, status }) { //props passed down from withFormik componenet
     // touched. This prop keeps track of whether you’ve been in this field previously.
     // errors - for Yup
